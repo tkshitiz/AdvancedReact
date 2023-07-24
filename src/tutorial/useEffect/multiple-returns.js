@@ -14,7 +14,7 @@ useEffect( () =>{
     {
         return res.json()    
     }
-    else{
+    else{ 
         setIsLoading(false)
         setIsError(true)
         throw new Error(res.statusText)
