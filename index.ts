@@ -9,6 +9,7 @@ const user = await prisma.user.create({
         email :'tkshitiz60@gmail.com'
     },
 })
+
 // console.log(user)
 } 
 main()
