@@ -11,7 +11,6 @@ const user = await prisma.user.create({
 })
 
 // console.log(user)
-
 } 
 main()
 .then(async () =>{
